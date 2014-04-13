@@ -11,5 +11,10 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSTextField *latitude;
+@property (weak) IBOutlet NSTextField *longitude;
+@property (weak) IBOutlet NSTextField *osgbRef;
+
+- (IBAction)convertToOSGB:(id)sender;
 
 @end

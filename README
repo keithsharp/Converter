@@ -1,0 +1,13 @@
+Converter is a simple Cocoa application that uses the PROJ.4 library to
+convert from a WGS84 latitude and longitude to OSGB eastings and northings.
+I wrote this application as an experiment in using third party libraries in
+Objective-C/Xcode applications.
+
+For a full explanation see my blog:
+
+	http://wp.me/p3KuIc-13
+
+The code is in the public domain - do what you want with it!
+
+Keith.
+keith.sharp@gmail.com
